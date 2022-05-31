@@ -10,7 +10,8 @@ pip install -r requirements.txt
 
 ---
 PDF utils:
- util for merging contents of PDFs pages
+ util for processing PDF files
 
-to run this step use the next commands:
- python -m pdf.py twopage.pdf wtr.pdf 
+Usage:
+- python -m pdf.py twopage.pdf wtr.pdf 
+- python -m merge.py --input input_file1.pdf input_file2.pdf --output output_file.pdf
